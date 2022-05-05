@@ -1,0 +1,17 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "mohsin",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
